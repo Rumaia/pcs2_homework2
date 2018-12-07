@@ -7,7 +7,7 @@ Here I am writing a report on quicksort and mergesort functions and about their 
 In the function quicksort I have one element fixed, called pivot, and I am sorting all the coming elements according to the pivot and these elements are then put in a new list.
 
 ## IN CASE OF MERGESORT:
-In the function mergesort the list is divided into two halves. I am calling the left part of the list, left; and the right part of the list, right. Then the two halves are sorted and put back together. Thus it modifies the original list, and sorts it. If you try to call the original list that was provided, you can see that it returns the sorted list. So the original one is lost.
+In the function mergesort the list is divided into two halves. I am calling the left part of the list, left_sorted; and the right part of the list, right_sorted. Then the two halves are sorted and put back together. Thus it modifies the original list, and sorts it. If you try to call the original list that was provided, you can see that it returns the sorted list. So the original one is lost.
 
 ## TIMER:
 After writing the functions, to compare them I have wrote a Timer function that is measuring the time needed for each iteration. In the Timer I have used a setup module which is a simple way to time small Python codes. Then I have imported my codes of quicksort and mergesort and then using different samples that have different ranges, I have measured the time. I have also printed these values of time, because it makes easy to plot the graph.
